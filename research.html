@@ -1,0 +1,465 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Wangli He - Research</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">menu</div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-item"><a href="publication.html">Publication</a></div>
+<div class="menu-item"><a href="research.html" class="current">Research</a></div>
+<div class="menu-item"><a href="https://scholar.google.com/citations?user=eiy6yCgAAAAJ&hl=zh-CN">Google Scholar</a></div>
+
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Research</h1>
+</div>
+
+
+<h1>Autonomous Intelligent Systems — Perception</h1>
+
+<h3>2D LiDAR SLAM</h3>
+<p>Simultaneous localization and mapping is one of the fundamental capabilities for autonomous systems operating in unknown environments. Our research focuses on cooperative exploration and mapping using multiple mobile robots equipped with 2D LiDAR sensors. By integrating frontier-based exploration, sampling-based target generation, task allocation, and real-time map fusion, the system enables robots to efficiently explore unknown spaces, construct consistent environmental maps, and improve coverage performance through cooperation. This research provides practical solutions for indoor service robots, inspection robots, search-and-rescue systems, and other applications where reliable localization and rapid environmental understanding are required.</p>
+
+<p>
+<table class="imgtable" style="margin: auto; table-layout: fixed; width: 100%;">
+<tr>
+<td style="text-align:center; width: 50%; vertical-align: middle;">
+<img src="image78.GIF" alt="Multi-robot cooperative exploration and mapping" width="350" height="200"/>&nbsp;
+</td>
+<td style="text-align:center; width: 50%; vertical-align: middle;">
+<img src="image79.GIF" alt="Multi-robot coverage comparison experiment" width="350" height="200" />&nbsp;
+</td>
+</tr>
+
+<tr>
+<td style="text-align:center; width: 50%;">
+Multi-robot cooperative exploration and mapping process
+</td>
+<td style="text-align:center; width: 50%;">
+Multi-robot exploration coverage comparison experiment
+</td>
+</tr>
+</table>
+</p>
+
+
+<h3>3D LiDAR SLAM</h3>
+<p>Three-dimensional LiDAR SLAM plays an important role in autonomous navigation, large-scale mapping, and environmental reconstruction. Our research aims to improve the accuracy, robustness, and scalability of LiDAR-based localization and mapping in complex environments. The system incorporates global descriptor-based place recognition, loop closure detection, point cloud registration, and backend optimization to reduce accumulated drift and enhance mapping consistency. For multi-robot scenarios, we further investigate centralized map association and inter-map transformation estimation, enabling efficient construction of large-scale point cloud maps in underground garages, outdoor campuses, and other challenging environments. These studies support autonomous driving, robotic inspection, digital twin construction, and intelligent infrastructure management.</p>
+
+<p>
+<table class="imgtable" style="margin: auto; table-layout: fixed; width: 100%;">
+<tr>
+<td style="text-align:center; width: 50%; vertical-align: middle;">
+<img src="image95.GIF" alt="Underground garage mapping and trajectory estimation" width="350" height="200"/>&nbsp;
+</td>
+<td style="text-align:center; width: 50%; vertical-align: middle;">
+<img src="image97.GIF" alt="True loop closure detection and false loop rejection" width="350" height="200" />&nbsp;
+</td>
+</tr>
+
+<tr>
+<td style="text-align:center; width: 50%;">
+Laser mapping and trajectory estimation in underground garage
+</td>
+<td style="text-align:center; width: 50%;">
+True loop closure detection and false loop rejection
+</td>
+</tr>
+
+<tr>
+<td style="text-align:center; width: 50%; vertical-align: middle;">
+<img src="image100.GIF" alt="Outdoor campus multi-robot 3D mapping" width="350" height="200"/>&nbsp;
+</td>
+<td style="text-align:center; width: 50%; vertical-align: middle;">
+<img src="image101.GIF" alt="Outdoor campus multi-robot 3D mapping view 2" width="350" height="200" />&nbsp;
+</td>
+</tr>
+
+<tr>
+<td style="text-align:center; width: 50%;">
+Multi-robot 3D mapping in outdoor campus
+</td>
+<td style="text-align:center; width: 50%;">
+Multi-robot 3D mapping (view 2)
+</td>
+</tr>
+</table>
+</p>
+
+
+<h3>Dynamic Semantic Visual SLAM</h3>
+<p>Visual SLAM systems often suffer from performance degradation in dynamic environments, where moving objects may introduce unstable features and ghosting artifacts in the reconstructed map. Our research focuses on dynamic semantic visual SLAM by combining lightweight semantic segmentation, geometric constraints, and robust feature selection. The system can distinguish static structures from dynamic objects, improve camera pose estimation, and reconstruct dense static maps with higher accuracy and real-time performance. This direction is closely related to mobile robots, autonomous vehicles, human-robot coexistence, and intelligent perception in unstructured environments.</p>
+
+<p>
+<table class="imgtable" style="margin: auto; table-layout: fixed; width: 100%;">
+<tr>
+<td style="text-align:center; width: 50%; vertical-align: middle;">
+<img src="image32.GIF" alt="Dynamic scene visual SLAM robust localization and mapping" width="350" height="200"/>&nbsp;
+</td>
+<td style="text-align:center; width: 50%; vertical-align: middle;">
+<img src="image27.png" alt="Comparison with ORB-SLAM3: ghosting elimination" width="350" height="200" />&nbsp;
+</td>
+</tr>
+
+<tr>
+<td style="text-align:center; width: 50%;">
+Robust localization and mapping in dynamic scenes
+</td>
+<td style="text-align:center; width: 50%;">
+Comparison with ORB-SLAM3: ghosting elimination
+</td>
+</tr>
+</table>
+</p>
+
+
+<h3>Multi-Robot SLAM</h3>
+<p>Multi-robot SLAM extends conventional single-robot localization and mapping by allowing multiple agents to collaboratively perceive, explore, and reconstruct large-scale environments. Our research focuses on dense map merging, inter-robot pose estimation, and cooperative environmental reconstruction without relying on predefined initial poses. By fusing rendering-based image information with geometric features, the system improves the accuracy and robustness of map alignment across different robots. This research is particularly useful for large-area exploration, underground space inspection, disaster response, warehouse automation, and other scenarios where a single robot is limited by sensing range, computation, or operating time.</p>
+
+<p>
+<table class="imgtable" style="margin: auto; table-layout: fixed; width: 100%;">
+<tr>
+<td style="text-align:center; width: 25%;">
+<img src="image69.GIF" alt="Multi-robot dense map fusion demo view 1" width="280" height="180"/>&nbsp;
+</td>
+<td style="text-align:center; width: 25%;">
+<img src="image71.GIF" alt="Multi-robot dense map fusion demo view 3" width="280" height="180"/>&nbsp;
+</td>
+<td style="text-align:center; width: 50%;" rowspan="2">
+<img src="image77.png" alt="Multi-robot dense map fusion result" width="350" height="380"/>&nbsp;
+</td>
+</tr>
+
+<tr>
+<td style="text-align:center; width: 25%;">
+<img src="image70.GIF" alt="Multi-robot dense map fusion demo view 2" width="280" height="180" />&nbsp;
+</td>
+<td style="text-align:center; width: 25%;">
+<img src="image72.GIF" alt="Multi-robot dense map fusion demo view 4" width="280" height="180" />&nbsp;
+</td>
+</tr>
+
+<tr>
+<td style="text-align:center; width: 25%;">
+Multi-robot dense map fusion (view 1)
+</td>
+<td style="text-align:center; width: 25%;">
+Multi-robot dense map fusion (view 3)
+</td>
+<td style="text-align:center; width: 50%;" rowspan="2">
+Multi-robot dense map fusion result
+</td>
+</tr>
+
+<tr>
+<td style="text-align:center; width: 25%;">
+Multi-robot dense map fusion (view 2)
+</td>
+<td style="text-align:center; width: 25%;">
+Multi-robot dense map fusion (view 4)
+</td>
+</tr>
+</table>
+</p>
+
+
+<h1>Autonomous Intelligent Systems—Motion Planning</h1>
+
+<h2>Formation Control</h2>
+
+<h3>Behavior-Based Formation Control</h3>
+<p>Formation control is a key problem in multi-robot coordination, enabling a group of robots to move cooperatively while maintaining desired spatial relationships. Our research investigates behavior-based formation control methods for mobile robots with nonholonomic constraints. Robot motion is decomposed into formation keeping, goal seeking, and collision avoidance behaviors, allowing the team to pass through obstacle-rich environments, maintain stable formations, and autonomously switch formation patterns according to environmental conditions. This direction provides fundamental support for cooperative transportation, patrol, surveillance, search-and-rescue, and swarm robotic systems.</p>
+
+<p>
+<table class="imgtable" style="margin: auto; table-layout: fixed; width: 100%;">
+<tr>
+<td style="text-align:center; width: 50%;">
+<img src="image255.GIF" alt="Gazebo simulation multi-robot formation control" width="300" height="200"/>&nbsp;
+</td>
+<td style="text-align:center; width: 50%;">
+<img src="FC.GIF" alt="Mecanum wheel robot platform experiment" width="300" height="200" />&nbsp;
+</td>
+</tr>
+
+<tr>
+<td style="text-align:center; width: 50%;">
+Gazebo simulation: multi-robot formation control
+</td>
+<td style="text-align:center; width: 50%;">
+Real-world experiment (Mecanum wheel robot platform)
+</td>
+</tr>
+</table>
+</p>
+
+<h3>Multi-Robot Formation Control Based on Artificial Potential Field and Fuzzy Control</h3>
+<p>Artificial potential field methods provide an intuitive framework for robot motion planning and obstacle avoidance, but traditional approaches may suffer from local minima and poor adaptability in complex environments. Our research combines artificial potential fields with fuzzy control to enhance the flexibility and robustness of multi-robot formation control. The method enables robots to maintain coordinated motion, avoid obstacles, optimize movement paths, and reduce the influence of local minimum problems. Real-world experiments on mobile robot platforms demonstrate the feasibility of the proposed approach for practical cooperative control tasks.</p>
+
+<p>
+<table class="imgtable" style="margin: auto; table-layout: fixed; width: 100%;">
+<tr>
+<td style="text-align:center; width: 50%;">
+<img src="image263.GIF" alt="Multi-robot path planning and formation control simulation" width="300" height="200"/>&nbsp;
+</td>
+<td style="text-align:center; width: 50%;">
+<img src="image264.GIF" alt="Mecanum wheel robot platform experiment" width="300" height="200" />&nbsp;
+</td>
+</tr>
+
+<tr>
+<td style="text-align:center; width: 50%;">
+Multi-robot path planning and formation control simulation
+</td>
+<td style="text-align:center; width: 50%;">
+Real-world experiment (Mecanum wheel robot platform)
+</td>
+</tr>
+</table>
+</p>
+
+
+<h2>Autonomous Decision-Making and Planning</h2>
+
+<h3>End-to-End Navigation (Static Unknown Scenes)</h3>
+<p>End-to-end navigation aims to enable robots to make motion decisions directly from sensor observations without relying on complete prior maps. Our research investigates reinforcement learning-based navigation methods for both single-agent and multi-agent systems in static unknown environments. For single-agent navigation, radar-based map-free learning is used to improve adaptability in unexplored scenes. For multi-agent navigation, artificial potential fields are integrated with reinforcement learning to support coordinated path planning and efficient policy learning. This research contributes to autonomous navigation in unknown indoor environments, robot exploration, logistics transportation, and service robotics.</p>
+
+<p>
+<table class="imgtable" style="margin: auto; table-layout: fixed; width: 100%;">
+<tr>
+<td style="text-align:center; width: 33.33%;">
+<img src="image215.GIF" alt="Radar-based map-free reinforcement learning navigation" width="300" height="200"/>&nbsp;
+</td>
+<td style="text-align:center; width: 33.33%;">
+<img src="image218.GIF" alt="Multi-agent APF+RL path planning" width="300" height="200" />&nbsp;
+</td>
+<td style="text-align:center; width: 33.33%;">
+<img src="image219.GIF" alt="Multi-agent cooperative navigation experiment" width="300" height="200"/>&nbsp;
+</td>
+</tr>
+
+<tr>
+<td style="text-align:center; width: 33.33%;">
+Single-agent radar-based map-free RL navigation
+</td>
+<td style="text-align:center; width: 33.33%;">
+Multi-agent APF + RL path planning
+</td>
+<td style="text-align:center; width: 33.33%;">
+Multi-agent cooperative navigation experiment
+</td>
+</tr>
+</table>
+</p>
+
+<h3>End-to-End Navigation (Dynamic Pedestrian Scenes)</h3>
+<p>Autonomous navigation in human-populated environments requires robots to understand pedestrian motion, predict potential interactions, and make socially compliant decisions in real time. Our research focuses on end-to-end social navigation in dynamic pedestrian scenes by integrating graph attention networks with reinforcement learning. The system jointly models pedestrian states, interaction relationships, and collision avoidance decisions, enabling robots to navigate safely and efficiently in open fields and real-world dynamic environments. This direction is closely related to service robots, delivery robots, autonomous patrol platforms, and human-robot coexistence in public spaces.</p>
+
+<p>
+<table class="imgtable" style="margin: auto; table-layout: fixed; width: 100%;">
+<tr>
+<td style="text-align:center; width: 33.33%;">
+<img src="image251.GIF" alt="Open field dynamic pedestrian navigation simulation" width="300" height="200"/>&nbsp;
+</td>
+<td style="text-align:center; width: 33.33%;">
+<img src="image252.GIF" alt="Real platform dynamic pedestrian navigation test" width="300" height="200" />&nbsp;
+</td>
+<td style="text-align:center; width: 33.33%;">
+<img src="image129.GIF" alt="LiDAR pedestrian detection demonstration" width="300" height="200"/>&nbsp;
+</td>
+</tr>
+
+<tr>
+<td style="text-align:center; width: 33.33%;">
+Open field: dynamic pedestrian navigation simulation
+</td>
+<td style="text-align:center; width: 33.33%;">
+Real platform: dynamic pedestrian navigation test
+</td>
+<td style="text-align:center; width: 33.33%;">
+LiDAR pedestrian detection effect
+</td>
+</tr>
+</table>
+</p>
+
+
+<h2>Multi-Robot Path Planning</h2>
+
+<h3>Conflict-Based Search</h3>
+<p>Multi-robot path planning aims to generate collision-free and efficient paths for multiple robots operating in a shared environment. Our research investigates hierarchical conflict-based search methods that progressively introduce constraints to resolve conflicts among robot paths. The framework can be extended to heterogeneous multi-robot systems with different motion models, body sizes, and task requirements. By explicitly modeling inter-robot conflicts and searching for feasible path combinations, this approach provides reliable planning solutions for warehouse logistics, automated transportation, multi-robot inspection, and cooperative task execution.</p>
+
+<p>
+<table class="imgtable" style="margin: auto; table-layout: fixed; width: 100%;">
+<tr>
+<td style="text-align:center; width: 33.33%;">
+<img src="image202.GIF" alt="Homogeneous multi-robot path planning simulation" width="300" height="200"/>&nbsp;
+</td>
+<td style="text-align:center; width: 33.33%;">
+<img src="image203.GIF" alt="Heterogeneous multi-robot path planning simulation" width="300" height="200" />&nbsp;
+</td>
+<td style="text-align:center; width: 33.33%;">
+<img src="image204.png" alt="Conflict-based search method diagram" width="300" height="200"/>&nbsp;
+</td>
+</tr>
+
+<tr>
+<td style="text-align:center; width: 33.33%;">
+Homogeneous multi-robot path planning
+</td>
+<td style="text-align:center; width: 33.33%;">
+Heterogeneous multi-robot path planning
+</td>
+<td style="text-align:center; width: 33.33%;">
+Conflict-based search method schematic
+</td>
+</tr>
+</table>
+</p>
+
+<h3>Reinforcement Learning Methods</h3>
+<p>Reinforcement learning provides a promising framework for multi-robot path planning in complex and uncertain environments. Our research focuses on learning-based coordination strategies that allow robots to make decentralized or partially decentralized decisions under conflict constraints. By incorporating selective communication mechanisms and hierarchical coordination, the system can model complex interaction relationships among robots and improve path efficiency, success rate, and adaptability in typical conflict scenarios such as head-on conflicts, blocking conflicts, and dense traffic situations. This research supports scalable multi-robot coordination in intelligent warehouses, autonomous transportation, and swarm robotic systems.</p>
+
+<p>
+<table class="imgtable" style="margin: auto">
+<tr>
+<td style="text-align:center">
+<img src="image223.GIF" alt="Head-on conflict scenario RL multi-robot path planning" width="400" height="256"/>&nbsp;
+</td>
+<td style="text-align:center">
+<img src="image224.GIF" alt="Blocking conflict scenario RL multi-robot path planning" width="400" height="256" />&nbsp;
+</td>
+</tr>
+
+<tr>
+<td style="text-align:center">
+Head-on conflict scenario: RL multi-robot path planning
+</td>
+<td style="text-align:center">
+Blocking conflict scenario: RL multi-robot path planning
+</td>
+</tr>
+
+<tr>
+<td style="text-align:center">
+<img src="image241.GIF" alt="Typical conflict scenario path planning example 3" width="400" height="256"/>&nbsp;
+</td>
+<td style="text-align:center">
+<img src="image242.GIF" alt="Typical conflict scenario path planning example 4" width="400" height="256" />&nbsp;
+</td>
+</tr>
+
+<tr>
+<td style="text-align:center">
+Typical conflict scenario path planning (example 3)
+</td>
+<td style="text-align:center">
+Typical conflict scenario path planning (example 4)
+</td>
+</tr>
+</table>
+</p>
+
+
+<h1>Simulation and Testing Platform</h1>
+
+<h2>Electricity-Hydrogen Integrated Energy System Simulation and Testing Platform</h2>
+
+<p>Large-scale electricity-hydrogen coupled energy systems represent the next generation of integrated energy networks that require the tight coordination of diverse physical modules and control technologies to achieve stability, performance, reliability, and efficiency in dealing with the stochastic nature of distributed power sources. From the perspective of system operation and large-scale scheduling, we simultaneously construct a "source-grid-load-storage-hydrogen" multi-dimensional collaborative decision-making framework. Through a visual interface for node topology and parameter configuration, and by employing simultaneous equation methods with solvers such as Ipopt, the platform integrates multi-time-scale strategies—spanning day-ahead, intra-day, and steady-state optimizations. This enables us to optimize the power allocation for heterogeneous electrolyzer clusters and multi-type energy storage systems in real time, supporting operation monitoring and second-level dynamic simulation. The related research achievements have been successfully applied to multiple major national demonstration projects.
+</p>
+
+<p>
+<table class="imgtable" style="margin: auto">
+<tr>
+<td style="text-align:center">
+<img src="figure_vpp1.GIF" alt="Electricity-hydrogen coupled energy system simulation platform" width="320" height="200"/>&nbsp;
+</td>
+<td style="text-align:center; width: 33.33%;">
+<img src="figure_vpp2.GIF" alt="Electricity-hydrogen system dynamic simulation" width="320" height="200"/>&nbsp;
+</td>
+<td style="text-align:center; width: 33.33%;">
+<img src="multi-vpps-framework.png" alt="Multi-VPPs framework architecture" width="320" height="200"/>&nbsp;
+</td>
+</tr>
+
+<tr>
+<td style="text-align:center; width: 33.33%;">
+Electricity-hydrogen coupled simulation platform
+</td>
+<td style="text-align:center; width: 33.33%;">
+Dynamic simulation of electricity-hydrogen system
+</td>
+<td style="text-align:center; width: 33.33%;">
+Multi-VPPs framework architecture
+</td>
+</tr>
+</table>
+</p>
+
+<h2>Autonomous System Simulation and Testing Platform</h2>
+
+<h3>Multi-Agent Cooperative Control Simulation Software</h3>
+<p>Multi-agent cooperative control requires systematic simulation tools to evaluate coordination algorithms under different environmental conditions, robot models, and task settings. Our simulation software is designed to support the modeling, visualization, and testing of cooperative control strategies for multiple agents. It enables researchers to analyze formation behaviors, motion coordination, collision avoidance, and task execution processes in a controllable virtual environment. This platform helps bridge the gap between theoretical algorithm design and real-world robotic implementation.</p>
+
+<p>
+<table class="imgtable" style="margin: auto; table-layout: fixed; width: 100%;">
+<tr>
+<td style="text-align:center; width: 50%;">
+<img src="fig7-1.gif" alt="Multi-agent cooperative control simulation demo 1" width="300" height="180"/>&nbsp;
+</td>
+<td style="text-align:center; width: 50%;">
+<img src="fig7-2.gif" alt="Multi-agent cooperative control simulation demo 2" width="300" height="180" />&nbsp;
+</td>
+</tr>
+
+<tr>
+<td style="text-align:center; width: 50%;">
+Multi-agent cooperative control simulation (demo 1)
+</td>
+<td style="text-align:center; width: 50%;">
+Multi-agent cooperative control simulation (demo 2)
+</td>
+</tr>
+</table>
+</p>
+
+<h3>Unity 3D-Based Reinforcement Learning Training and Validation Platform</h3>
+<p>Reinforcement learning for robotics requires realistic and flexible simulation environments for policy training, evaluation, and transfer. Our Unity 3D-based platform provides a visual and interactive environment for reinforcement learning-driven navigation and decision-making. The platform supports scene construction, sensor simulation, agent-environment interaction, policy training, and performance validation. It can be used to test navigation algorithms, multi-agent coordination strategies, and autonomous decision-making methods before deployment on physical robotic systems. This research contributes to efficient algorithm development and safer real-world implementation of intelligent autonomous systems.</p>
+
+<p>
+<table class="imgtable" style="margin: auto; table-layout: fixed; width: 100%;">
+<tr>
+<td style="text-align:center; width: 50%;">
+<img src="fig8-1.jpg" alt="Unity 3D RL training platform demo 1" width="300" height="180"/>&nbsp;
+</td>
+<td style="text-align:center; width: 50%;">
+<img src="fig8-2.gif" alt="Unity 3D RL training platform demo 2" width="300" height="180" />&nbsp;
+</td>
+</tr>
+
+<tr>
+<td style="text-align:center; width: 50%;">
+Unity 3D RL training and validation (demo 1)
+</td>
+<td style="text-align:center; width: 50%;">
+Unity 3D RL training and validation (demo 2)
+</td>
+</tr>
+</table>
+</p>
+
+
+
+</td>
+</tr>
+</table>
+</body>
+</html>

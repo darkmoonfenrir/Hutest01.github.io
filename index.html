@@ -1,0 +1,358 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Wangli He </title>
+<style>
+/* 照片右侧信息列表，带方形bullet，与Research Interests一致 */
+.profile-list {
+  list-style: square;
+  padding-left: 1.2em;
+  margin: 0.5em 0;
+}
+.profile-list > li {
+  margin-bottom: 0.5em;
+  line-height: 1.4;
+}
+
+/* h4子标题作为li模块，与h3对齐，带bullet dot */
+.pub-section {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+.pub-section > li {
+  margin-bottom: 10px;
+  padding-left: 1.2em;
+  position: relative;
+}
+.pub-section > li::before {
+  content: "\2022";  /* bullet • */
+  position: absolute;
+  left: 0;
+  top: 0.15em;
+  font-size: 1.1em;
+  line-height: 1;
+}
+.pub-section > li > h4 {
+  margin: 0 0 0.5em 0;
+  padding: 0;
+  display: block;
+}
+
+/* 文献序号 [1] 格式（统一用于Journal和Books） */
+.ref-list,
+.ref-list-books {
+  list-style: none;
+  padding-left: 2.5em;
+}
+.ref-list {
+  counter-reset: ref-counter;
+}
+.ref-list-books {
+  counter-reset: ref-counter-books;
+}
+.ref-list > li,
+.ref-list-books > li {
+  position: relative;
+  padding-left: 0.2em;
+}
+.ref-list > li {
+  counter-increment: ref-counter;
+}
+.ref-list-books > li {
+  counter-increment: ref-counter-books;
+}
+.ref-list > li::before,
+.ref-list-books > li::before {
+  content: "[" counter(ref-counter) "]";
+  position: absolute;
+  left: -2.5em;
+  width: 2.4em;
+  text-align: right;
+  font-weight: normal;
+}
+/* Books的counter单独设置 */
+.ref-list-books > li::before {
+  content: "[" counter(ref-counter-books) "]";
+}
+/* Books外层li去掉bullet dot */
+.pub-section > li.no-dot::before {
+  content: none;
+}
+
+
+</style>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">menu</div>
+<div class="menu-item"><a href="index.html" class="current">Home</a></div>
+<div class="menu-item"><a href="publication.html">Publication</a></div>
+<div class="menu-item"><a href="research.html">Research</a></div>
+<div class="menu-item"><a href="https://scholar.google.com/citations?user=eiy6yCgAAAAJ&hl=zh-CN">Goole Scholar</a></div>
+
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Welcome to Wangli He's Homepage </h1>
+</div>
+<table class="imgtable"><tr><td>
+<a ><img src="He.jpg" alt="alt text" width="118px" height="170px" /></a>&nbsp;</td>
+
+<td align="left"><ul class="profile-list">
+<li>Prof. Wangli He</li>
+<li><a href="https://cise.ecust.edu.cn/">School of Information Science and Engineering</a>, <a href="https://www.ecust.edu.cn/main.htm">East China University of Science and Technology (ECUST)</a></li>
+<li>Address: No. 130 Meilong Road, Shanghai 200237, China</li>
+<li>Email: wanglihe@ecust.edu.cn</li>
+<li><p><a href="https://cise.ecust.edu.cn/2021/0315/c12977a123858/page.htm">中文页面</a></p>
+</li>
+
+</ul>
+</td></tr></table>
+
+
+
+<h2>About me</h2>
+<p>Wangli He received the B.Sc. degree in information and computing science and the Ph.D. degree in applied mathematics from Southeast University, Nanjing, China, in 2005 and 2010, respectively. She is currently a Professor with the School of Information Science and Engineering, East China University of Science and Technology, Shanghai, China. From 2010 to 2017, she held several visiting positions with Central Queensland University, Rockhampton, QLD, Australia, The University of Hong Kong, Hong Kong, the City University of Hong Kong, Hong Kong, the Potsdam Institute for Climate Research Institute, Potsdam, Germany, and Tokyo Metropolitan University, Tokyo, Japan. Her research interests include distributed cooperative control and optimization, multi-agent games, networked multi-agent systems, autonomous intelligent systems, and electricity-hydrogen-carbon integrated energy systems.</p>
+
+<p>
+Dr. He was a recipient of the Sixth Young Scientist Award of Chinese Association of Automation in 2020, and the first prize of Shanghai Natural Science Award in 2019. From 2018 to 2019, she was the Chair of the Technical Committee on Networked-based Control Systems and Applications of IES. She is an Associate Editor for several international journals including the IEEE Transactions on Industrial Informatics and the IEEE Journal of Emerging and Selected Topics in Industrial Electronics.
+<p>
+
+<h2>Research Interests</h2>
+<p>My research interests include </p>
+<ul>
+
+<li><p>Swarm intelligence</p>
+</li>
+
+<li><p>Distributed control, optimization and learning for multi-agent systems</p>
+</li>
+
+<li><p>Electricity-hydrogen-carbon integrated energy systems</p>
+</li>
+
+<li><p>Multi-robot cooperative technology (SLAM, task allocation, motion planning, etc.)</p>
+</li>
+
+<li><p>Multi-agent trustworthy decision-making (non-cooperative games, reinforcement learning)</p>
+</li>
+
+</ul>
+
+
+<h2>Recent Publications </h2>
+
+<h3>Journal Articles</h3>
+
+<ul class="pub-section">
+
+<li>
+<h4>Distributed Optimization and Games</h4>
+<ol class="ref-list">
+
+<li><p><b>Wangli He*</b>, Yanzhen Wang. "<i>Distributed optimal variational GNE seeking in merely monotone games</i>," <b>IEEE/CAA Journal of Automatica Sinica</b>, 2024, 11(7): 1621-1630.<br/></p>
+</li>
+
+<li><p>Zhen Yang, <b>Wangli He*</b>, Shaofu Yang. "<i>Differentially private distributed optimization over time-varying unbalanced networks with linear convergence rates</i>," <b>IEEE Transactions on Signal Processing</b>, 2025, 73: 1138-1152.<br/></p>
+</li>
+
+<li><p>Zhen Yang, <b>Wangli He*</b>, Yang Yuan. "<i>Differentially private distributed optimization over diagraphs with application to image deblurring</i>," <b>IEEE Transactions on Control of Network Systems</b>, 2025, 12(1): 634-647.<br/></p>
+</li>
+
+<li><p>Kaijie Zhang, <b>Wangli He*</b>, Wenli Du, Feng Qian. "<i>Distributed Nash equilibrium seeking with a gradient-based event-triggered mechanism</i>," <b>IEEE Transactions on Cybernetics</b>, 2025, 55(8): 3713-3722.<br/></p>
+</li>
+
+<li><p>Kaijie Zhang, <b>Wangli He*</b>, Wenying Xu. "<i>Dynamic event-triggered mechanism for distributed Nash equilibrium seeking under switching topologies</i>," <b>IEEE Transactions on Industrial Informatics</b>, 2025, 21(1): 564-573.<br/></p>
+</li>
+
+</ol>
+</li>
+
+<li>
+<h4>Distributed Cooperative Control</h4>
+<ol class="ref-list">
+
+<li><p><b>Wangli He</b>, Feng Qian*, James Lam, Guanrong Chen, Qing-Long Han, Jürgen Kurths. "<i>Quasi-synchronization of heterogeneous dynamic networks via distributed impulsive control: error estimation, optimization and design</i>," <b>Automatica</b>, 2015, 62: 249-262.<br/></p>
+</li>
+
+<li><p>Wenying Xu, <b>Wangli He*</b>, Daniel WC Ho, Jürgen Kurths. "<i>Fully distributed observer-based consensus protocol: adaptive dynamic event-triggered schemes</i>," <b>Automatica</b>, 2022, 139: 110188.<br/></p>
+</li>
+
+<li><p><b>Wangli He</b>, Feng Qian*, Qing-Long Han, Guanrong Chen. "<i>Almost sure stability of nonlinear systems under random and impulsive sequential attacks</i>," <b>IEEE Transactions on Automatic Control</b>, 2020, 65(9): 3879-3886.<br/></p>
+</li>
+
+<li><p><b>Wangli He*</b>, Kun Liang, Feng Qian, Guanrong Chen. "<i>Designing distributed impulsive controller for networked singularly perturbed systems</i>," <b>IEEE Transactions on Automatic Control</b>, 2023, 68(6): 3680-3686.<br/></p>
+</li>
+
+<li><p><b>Wangli He*</b>, Wenying Xu, Xiaohua Ge, Qing-Long Han, Wenli Du, Feng Qian. "<i>Secure control of multiagent systems against malicious attacks: a brief survey</i>," <b>IEEE Transactions on Industrial Informatics</b>, 2022, 18(6): 3595-3608.<br/></p>
+</li>
+
+</ol>
+</li>
+
+<li>
+<h4>Electricity-Hydrogen-Carbon Integrated Energy Systems</h4>
+<ol class="ref-list">
+
+<li><p><b>Wangli He*</b>, Lijia Chen, Xiangyun Qing, Feng Qian. "<i>Towards a net-zero future for refineries: a case study on capacity configuration for hydrogenation demands in a refinery</i>," <b>AIChE Journal</b>, 2025, 71(6): e18742.<br/></p>
+</li>
+
+<li><p><b>Wangli He*</b>, Chengyuan Li, Chenhao Cai, Xiangyun Qing, Wenli Du. "<i>Suppressing active power fluctuations at PCC in grid-connection microgrids via multiple BESSs: A collaborative multi-agent reinforcement learning approach</i>," <b>Applied Energy</b>, 2024, 373: 123858.<br/></p>
+</li>
+
+<li><p><b>Wangli He*</b>, Jiawei Yu, Chenxi Cao, Honggang Wang, Feng Qian. "<i>Optimal hydrogen production dispatch of networked hydrogen-based microgrids via a distributed method</i>," <b>IEEE Transactions on Sustainable Energy</b>, 2025, 16(3): 1919-1930.<br/></p>
+</li>
+
+<li><p><b>Wangli He</b>, Jinmin Zhao, Liang Zhao*, Zhi Li, Minglei Yang, Tianbo Liu. "<i>Data-driven two-stage distributionally robust optimization for refinery planning under uncertainty</i>," <b>Chemical Engineering Science</b>, 2023, 269: 118466.<br/></p>
+</li>
+
+<li><p><b>Wangli He*</b>, Chenhao Cai, Qing-Long Han*, Xiangyun Qing, Wenli Du, Feng Qian. "<i>Optimal scheduling of a hydrogen-based microgrid for an industrial park: a reinforcement learning approach</i>," <b>IEEE Transactions on Systems, Man, and Cybernetics: Systems</b>, 2025, 55(6): 4348-4361.<br/></p>
+</li>
+
+
+</ol>
+</li>
+
+</ul>
+<p><a href="publication.html">Full list of publications</a>
+</p>
+<h3>Books</h3>
+
+<ul class="pub-section">
+<li class="no-dot">
+<ol class="ref-list-books">
+<li><p>Wangli He, Feng Qian, Guanrong Chen, and Qing-Long Han. Distributed Impulsive Control of Leader-Following Multi-agent Systems. Handbook of Real-Time Computing, Springer Nature Singapore, 2022 1019-1072.</p>
+</li>
+
+<li><p>和望利, 钱锋, 韩清龙. 面向工业网络系统的分布式协同控制，"数字浪潮：工业互联网先进技术"丛书, 化学工业出版社, 2023. (入选国家"十四五"重点图书出版物出版专项规划项目)</p>
+</li>
+
+
+
+</ol>
+</li>
+</ul>
+
+<h2>Fellowships</h2>
+<ul>
+<li>
+Executive Council Member, Shanghai Association of Automation
+</li>
+
+<li>
+Council Member, Shanghai Nonlinear Science Research Council
+</li>
+
+<li>IEEE Senior Member
+</li>
+
+<li>Deputy Secretary-General, Women Scientists and Technologists Working Committee, Chinese Association of Automation
+</li>
+
+<li>
+Women-in-IES Ambassador, IEEE Industrial Electronics Society (one of 20 worldwide)
+</li>
+
+<li>IEEE Transactions on Industrial Informatics (SCI) Associate Editor
+</li>
+
+<li>IEEE Transactions on Neural Networks and Learning Systems (SCI)  Associate Editor
+</li>
+
+<li>Reviewer, Mathematical Reviews, American Mathematical Society
+</li>
+
+<li>Editorial Board Member, Chinese Journal of Intelligent Science and Technology
+</li>
+
+</ul>
+
+<h2> Honors & Awards </h2>
+
+<ul>
+
+<li><p>国家高层次人才计划入选者</p>
+</li>
+
+<li><p>国家优秀青年科学基金</p>
+</li>
+
+<li><p>全球前2%顶尖科学家终身科学影响力榜单（斯坦福大学、爱思唯尔）</p>
+</li>
+
+<li><p>爱思唯尔中国高被引学者（2022-2025）</p>
+</li>
+
+<li><p>中国自动化学会第六届青年科学家奖</p>
+</li>
+
+<li><p>上海市"三八红旗手"</p>
+</li>
+
+<li><p>上海市自然科学奖一等奖</p>
+</li>
+
+<li><p>高等教育（研究生）国家级教学成果奖一等奖</p>
+</li>
+
+<li><p>中国仪器仪表学会科技进步奖（创新团队）</p>
+</li>
+
+<li><p>第二批全国高校黄大年式教师团队</p>
+</li>
+
+</ul>
+
+<h3>Faculty Advisor Awards</h3>
+
+<ul>
+<li>
+2025中国机器人大赛暨Robocup机器人世界杯中国赛指导教师(2025年中国机器人大赛暨Robocup机器人世界杯中国赛二等奖), 中国自动化学会, 2025
+</li>
+
+<li>
+2024中国机器人大赛暨Robocup机器人世界杯中国赛指导教师(2024年中国机器人大赛暨Robocup机器人世界杯中国赛一等奖), 中国自动化学会, 2024
+</li>
+
+<li>
+2023-2024学年校优秀研究生指导教师, 华东理工大学, 2024
+</li>
+
+<li>
+2021-2022学年校优秀研究生指导教师, 华东理工大学, 2022
+</li>
+
+<li>
+2020-2021学年校优秀研究生指导教师, 华东理工大学, 2021
+</li>
+
+
+<li>
+第十六届全国大学生智能汽车竞赛指导教师 (2021年第十六届全国大学生智能车竞赛，航天智慧物流组北赛区一等奖), 中国自动化学会、第十六届全国大学生智能汽车竞赛组织委员会, 2021
+</li>
+
+<li>
+第二届"航天杯"移动机器人AI创新技术挑战赛 最佳指导教师奖, 中国航天科工三院, 2021
+</li>
+
+<li>
+第三届上海市大学生工业自动化挑战赛工程创新赛项优秀指导教师奖(第三届上海市大学生工业自动化挑战赛二等奖), 上海市教育委员会, 2015
+</li>
+
+</ul>
+
+
+
+
+</td>
+</tr>
+</table>
+</body>
+</html>
