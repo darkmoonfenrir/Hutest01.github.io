@@ -10,13 +10,6 @@
   font-size: calc(1em + 2px);
   line-height: 1.5;
 }
-.research-topic {
-  color: #527bbd;
-  font-weight: bold;
-  margin-top: 1em;
-  margin-bottom: 0.3em;
-  text-align: left;
-}
 </style>
 <title>Wangli He - Research</title>
 </head>
@@ -39,7 +32,7 @@
 
 <h1>1. Autonomous Intelligent Systems - Perception</h1>
 
-<p class="research-topic">■ 1.1 2D LiDAR SLAM</p>
+<p>■ 1.1 2D LiDAR SLAM</p>
 <p>Simultaneous localization and mapping is one of the fundamental capabilities for autonomous systems operating in unknown environments. Our research focuses on cooperative exploration and mapping using multiple mobile robots equipped with 2D LiDAR sensors. By integrating frontier-based exploration, sampling-based target generation, task allocation, and real-time map fusion, the system enables robots to efficiently explore unknown spaces, construct consistent environmental maps, and improve coverage performance through cooperation. This research provides practical solutions for indoor service robots, inspection robots, search-and-rescue systems, and other applications where reliable localization and rapid environmental understanding are required.</p>
 
 <p>
@@ -65,7 +58,7 @@ Multi-robot exploration coverage comparison experiment
 </p>
 
 
-<p class="research-topic">■ 1.2 3D LiDAR SLAM</p>
+<p>■ 1.2 3D LiDAR SLAM</p>
 <p>Three-dimensional LiDAR SLAM plays an important role in autonomous navigation, large-scale mapping, and environmental reconstruction. Our research aims to improve the accuracy, robustness, and scalability of LiDAR-based localization and mapping in complex environments. The system incorporates global descriptor-based place recognition, loop closure detection, point cloud registration, and backend optimization to reduce accumulated drift and enhance mapping consistency. For multi-robot scenarios, we further investigate centralized map association and inter-map transformation estimation, enabling efficient construction of large-scale point cloud maps in underground garages, outdoor campuses, and other challenging environments. These studies support autonomous driving, robotic inspection, digital twin construction, and intelligent infrastructure management.</p>
 
 <p>
@@ -109,7 +102,7 @@ Multi-robot 3D mapping (view 2)
 </p>
 
 
-<p class="research-topic">■ 1.3 Dynamic Semantic Visual SLAM</p>
+<p>■ 1.3 Dynamic Semantic Visual SLAM</p>
 <p>Visual SLAM systems often suffer from performance degradation in dynamic environments, where moving objects may introduce unstable features and ghosting artifacts in the reconstructed map. Our research focuses on dynamic semantic visual SLAM by combining lightweight semantic segmentation, geometric constraints, and robust feature selection. The system can distinguish static structures from dynamic objects, improve camera pose estimation, and reconstruct dense static maps with higher accuracy and real-time performance. This direction is closely related to mobile robots, autonomous vehicles, human-robot coexistence, and intelligent perception in unstructured environments.</p>
 
 <p>
@@ -135,7 +128,7 @@ Comparison with ORB-SLAM3: ghosting elimination
 </p>
 
 
-<p class="research-topic">■ 1.4 Multi-Robot SLAM</p>
+<p>■ 1.4 Multi-Robot SLAM</p>
 <p>Multi-robot SLAM extends conventional single-robot localization and mapping by allowing multiple agents to collaboratively perceive, explore, and reconstruct large-scale environments. Our research focuses on dense map merging, inter-robot pose estimation, and cooperative environmental reconstruction without relying on predefined initial poses. By fusing rendering-based image information with geometric features, the system improves the accuracy and robustness of map alignment across different robots. This research is particularly useful for large-area exploration, underground space inspection, disaster response, warehouse automation, and other scenarios where a single robot is limited by sensing range, computation, or operating time.</p>
 
 <p>
@@ -189,7 +182,7 @@ Multi-robot dense map fusion (view 4)
 
 <h2>2.1 Formation Control</h2>
 
-<p class="research-topic">■ 2.1.1 Behavior-Based Formation Control</p>
+<p>■ 2.1.1 Behavior-Based Formation Control</p>
 <p>Formation control is a key problem in multi-robot coordination, enabling a group of robots to move cooperatively while maintaining desired spatial relationships. Our research investigates behavior-based formation control methods for mobile robots with nonholonomic constraints. Robot motion is decomposed into formation keeping, goal seeking, and collision avoidance behaviors, allowing the team to pass through obstacle-rich environments, maintain stable formations, and autonomously switch formation patterns according to environmental conditions. This direction provides fundamental support for cooperative transportation, patrol, surveillance, search-and-rescue, and swarm robotic systems.</p>
 
 <p>
@@ -214,7 +207,7 @@ Real-world experiment (Mecanum wheel robot platform)
 </table>
 </p>
 
-<p class="research-topic">■ 2.1.2 Multi-Robot Formation Control Based on Artificial Potential Field and Fuzzy Control</p>
+<p>■ 2.1.2 Multi-Robot Formation Control Based on Artificial Potential Field and Fuzzy Control</p>
 <p>Artificial potential field methods provide an intuitive framework for robot motion planning and obstacle avoidance, but traditional approaches may suffer from local minima and poor adaptability in complex environments. Our research combines artificial potential fields with fuzzy control to enhance the flexibility and robustness of multi-robot formation control. The method enables robots to maintain coordinated motion, avoid obstacles, optimize movement paths, and reduce the influence of local minimum problems. Real-world experiments on mobile robot platforms demonstrate the feasibility of the proposed approach for practical cooperative control tasks.</p>
 
 <p>
@@ -242,7 +235,7 @@ Real-world experiment (Mecanum wheel robot platform)
 
 <h2>2.2 Autonomous Decision-Making and Planning</h2>
 
-<p class="research-topic">■ 2.2.1 End-to-End Navigation (Static Unknown Scenes)</p>
+<p>■ 2.2.1 End-to-End Navigation (Static Unknown Scenes)</p>
 <p>End-to-end navigation aims to enable robots to make motion decisions directly from sensor observations without relying on complete prior maps. Our research investigates reinforcement learning-based navigation methods for both single-agent and multi-agent systems in static unknown environments. For single-agent navigation, radar-based map-free learning is used to improve adaptability in unexplored scenes. For multi-agent navigation, artificial potential fields are integrated with reinforcement learning to support coordinated path planning and efficient policy learning. This research contributes to autonomous navigation in unknown indoor environments, robot exploration, logistics transportation, and service robotics.</p>
 
 <p>
@@ -273,7 +266,7 @@ Multi-agent cooperative navigation experiment
 </table>
 </p>
 
-<p class="research-topic">■ 2.2.2 End-to-End Navigation (Dynamic Pedestrian Scenes)</p>
+<p>■ 2.2.2 End-to-End Navigation (Dynamic Pedestrian Scenes)</p>
 <p>Autonomous navigation in human-populated environments requires robots to understand pedestrian motion, predict potential interactions, and make socially compliant decisions in real time. Our research focuses on end-to-end social navigation in dynamic pedestrian scenes by integrating graph attention networks with reinforcement learning. The system jointly models pedestrian states, interaction relationships, and collision avoidance decisions, enabling robots to navigate safely and efficiently in open fields and real-world dynamic environments. This direction is closely related to service robots, delivery robots, autonomous patrol platforms, and human-robot coexistence in public spaces.</p>
 
 <p>
@@ -307,7 +300,7 @@ LiDAR pedestrian detection effect
 
 <h2>2.3 Multi-Robot Path Planning</h2>
 
-<p class="research-topic">■ 2.3.1 Conflict-Based Search</p>
+<p>■ 2.3.1 Conflict-Based Search</p>
 <p>Multi-robot path planning aims to generate collision-free and efficient paths for multiple robots operating in a shared environment. Our research investigates hierarchical conflict-based search methods that progressively introduce constraints to resolve conflicts among robot paths. The framework can be extended to heterogeneous multi-robot systems with different motion models, body sizes, and task requirements. By explicitly modeling inter-robot conflicts and searching for feasible path combinations, this approach provides reliable planning solutions for warehouse logistics, automated transportation, multi-robot inspection, and cooperative task execution.</p>
 
 <p>
@@ -338,7 +331,7 @@ Conflict-based search method schematic
 </table>
 </p>
 
-<p class="research-topic">■ 2.3.2 Reinforcement Learning Methods</p>
+<p>■ 2.3.2 Reinforcement Learning Methods</p>
 <p>Reinforcement learning provides a promising framework for multi-robot path planning in complex and uncertain environments. Our research focuses on learning-based coordination strategies that allow robots to make decentralized or partially decentralized decisions under conflict constraints. By incorporating selective communication mechanisms and hierarchical coordination, the system can model complex interaction relationships among robots and improve path efficiency, success rate, and adaptability in typical conflict scenarios such as head-on conflicts, blocking conflicts, and dense traffic situations. This research supports scalable multi-robot coordination in intelligent warehouses, autonomous transportation, and swarm robotic systems.</p>
 
 <p>
@@ -419,7 +412,7 @@ Multi-VPPs framework architecture
 
 <h2>3.2 Autonomous System Simulation and Testing Platform</h2>
 
-<p class="research-topic">■ 3.2.1 Multi-Agent Cooperative Control Simulation Software</p>
+<p>■ 3.2.1 Multi-Agent Cooperative Control Simulation Software</p>
 <p>Multi-agent cooperative control requires systematic simulation tools to evaluate coordination algorithms under different environmental conditions, robot models, and task settings. Our simulation software is designed to support the modeling, visualization, and testing of cooperative control strategies for multiple agents. It enables researchers to analyze formation behaviors, motion coordination, collision avoidance, and task execution processes in a controllable virtual environment. This platform helps bridge the gap between theoretical algorithm design and real-world robotic implementation.</p>
 
 <p>
@@ -444,7 +437,7 @@ Multi-agent cooperative control simulation (demo 2)
 </table>
 </p>
 
-<p class="research-topic">■ 3.2.2 Unity 3D-Based Reinforcement Learning Training and Validation Platform</p>
+<p>■ 3.2.2 Unity 3D-Based Reinforcement Learning Training and Validation Platform</p>
 <p>Reinforcement learning for robotics requires realistic and flexible simulation environments for policy training, evaluation, and transfer. Our Unity 3D-based platform provides a visual and interactive environment for reinforcement learning-driven navigation and decision-making. The platform supports scene construction, sensor simulation, agent-environment interaction, policy training, and performance validation. It can be used to test navigation algorithms, multi-agent coordination strategies, and autonomous decision-making methods before deployment on physical robotic systems. This research contributes to efficient algorithm development and safer real-world implementation of intelligent autonomous systems.</p>
 
 <p>
