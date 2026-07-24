@@ -366,3 +366,132 @@ table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
 }
+
+/* Responsive layout additions. Desktop jemdoc styling remains unchanged. */
+html {
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+table#tlayout {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#layout-content {
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    table#tlayout,
+    table#tlayout > tbody,
+    table#tlayout > tbody > tr {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #layout-menu,
+    #layout-content {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #layout-menu {
+        padding: 8px 12px;
+        white-space: normal;
+    }
+
+    #layout-menu .menu-category {
+        display: none;
+    }
+
+    #layout-menu .menu-item {
+        display: inline-block;
+        padding: 5px 10px;
+        text-indent: 0;
+        white-space: normal;
+    }
+
+    #layout-menu a {
+        margin-left: 0;
+        line-height: 1.4em;
+    }
+
+    #layout-content {
+        padding: 8px 14px 16px;
+        text-align: left;
+    }
+
+    #layout-content p,
+    #layout-content li,
+    #layout-content a {
+        overflow-wrap: anywhere;
+        word-break: normal;
+    }
+
+    #layout-content p {
+        text-align: left;
+    }
+
+    #layout-content table {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #layout-content td {
+        padding-left: 0.35em;
+        padding-right: 0.35em;
+        overflow-wrap: anywhere;
+    }
+
+    #layout-content > table.imgtable,
+    #layout-content > table.imgtable > tbody,
+    #layout-content > table.imgtable > tbody > tr,
+    #layout-content > table.imgtable > tbody > tr > td {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #layout-content > table.imgtable > tbody > tr > td {
+        padding: 4px 0;
+    }
+
+    #layout-content > table.imgtable img {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 1.5em;
+        line-height: 1.25;
+    }
+
+    h2 {
+        line-height: 1.3;
+    }
+
+    ol,
+    ul {
+        padding-left: 1.5em;
+    }
+}
