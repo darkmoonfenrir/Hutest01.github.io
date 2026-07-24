@@ -451,6 +451,10 @@ img {
         text-align: left;
     }
 
+    .research-page #layout-content p.research-figure-caption {
+        text-align: center;
+    }
+
     #layout-content table {
         width: 100%;
         max-width: 100%;
@@ -479,6 +483,36 @@ img {
         width: auto;
         max-width: 100%;
         height: auto;
+    }
+
+    /* Research figures use multi-column image tables on desktop. Stack and
+       center every image/caption pair on narrow screens. */
+    .research-page #layout-content table.imgtable,
+    .research-page #layout-content table.imgtable > tbody,
+    .research-page #layout-content table.imgtable > tbody > tr,
+    .research-page #layout-content table.imgtable > tbody > tr > td {
+        display: block;
+        width: 100% !important;
+        max-width: 100%;
+    }
+
+    .research-page #layout-content table.imgtable {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .research-page #layout-content table.imgtable > tbody > tr > td {
+        padding: 4px 0;
+        text-align: center !important;
+    }
+
+    .research-page #layout-content table.imgtable img {
+        display: block;
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     h1 {
